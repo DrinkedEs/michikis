@@ -151,7 +151,7 @@ const slides: Slide[] = [
     img: 'https://i.postimg.cc/qzHSqTLs/IMG20250906190717.jpg',
     badge: 'Detalles',
     title: 'Me nace cuidarte bonito',
-    body: 'Mis detalles a veces salen raros, chistosos o bien mios, pero todos nacen de lo mismo: de pensar en ti. Me nace cuidarte, mandarte calma, hacerte reir, recordarte q comas, q descanses, q no te rindas. No es obligacion; es amor saliendome por todos lados, we.',
+    body: 'Mis detalles a veces salen raros, chistosos o bien mios, pero todos nacen de lo mismo: de pensar en ti. Me nace cuidarte, mandarte calma, hacerte reir, recordarte q comas, q descanses, q no te rindas. No es obligacion; es amor saliendome por todos lados.',
     footer: 'Always caring, pero bien Alexis.',
     tone: 'violet',
   },
@@ -373,10 +373,7 @@ onBeforeUnmount(() => {
               class="tooth-body"
               d="M89.4 22.5c-14.8-13.8-45.8-12-61.6 6.7C10.7 49.4 15 78.1 28.5 105c9.9 19.7 11.3 46.7 26.9 54.7 12.7 6.5 20.2-12.4 28.2-30.3 3.2-7.1 10.1-7.1 13.3 0 8 17.9 15.6 36.8 28.2 30.3 15.7-8 17-35 26.9-54.7 13.5-26.9 17.8-55.6.7-75.8-15.8-18.7-46.8-20.5-61.6-6.7-.5.5-1.2.5-1.7 0Z"
             />
-            <path
-              class="tooth-shine"
-              d="M45.5 48.7c9-12.4 25.7-15.1 37.3-8.8"
-            />
+            <path class="tooth-shine" d="M45.5 48.7c9-12.4 25.7-15.1 37.3-8.8" />
             <circle class="tooth-eye left" cx="67" cy="83" r="5.5" />
             <circle class="tooth-eye right" cx="113" cy="83" r="5.5" />
             <path class="tooth-smile" d="M71 109c11.5 11.3 26.9 11.3 38.4 0" />
@@ -595,8 +592,7 @@ onBeforeUnmount(() => {
   border: 1px solid rgba(255, 247, 255, 0.22);
   border-radius: 8px;
   background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.18), transparent 34%),
-    rgba(91, 33, 182, 0.46);
+    linear-gradient(145deg, rgba(255, 255, 255, 0.18), transparent 34%), rgba(91, 33, 182, 0.46);
   box-shadow:
     0 24px 70px rgba(76, 29, 149, 0.3),
     0 0 48px var(--tone-glow);
@@ -651,8 +647,7 @@ onBeforeUnmount(() => {
   padding: 18px;
   border-right: 1px solid rgba(255, 247, 255, 0.16);
   background:
-    linear-gradient(180deg, rgba(255, 247, 255, 0.16), transparent),
-    rgba(88, 28, 135, 0.36);
+    linear-gradient(180deg, rgba(255, 247, 255, 0.16), transparent), rgba(88, 28, 135, 0.36);
   display: grid;
   place-items: center;
 }
@@ -981,8 +976,7 @@ h1 {
   height: 18px;
   border-radius: 62% 48% 58% 42%;
   background:
-    radial-gradient(circle at 68% 34%, rgba(255, 247, 255, 0.35) 0 3px, transparent 4px),
-    #c2410c;
+    radial-gradient(circle at 68% 34%, rgba(255, 247, 255, 0.35) 0 3px, transparent 4px), #c2410c;
   transform: rotate(-24deg);
 }
 
@@ -1074,8 +1068,7 @@ h1 {
   height: 18px;
   border-radius: 70% 28% 70% 34%;
   background:
-    radial-gradient(circle at 82% 20%, rgba(255, 247, 255, 0.45) 0 3px, transparent 4px),
-    #fb923c;
+    radial-gradient(circle at 82% 20%, rgba(255, 247, 255, 0.45) 0 3px, transparent 4px), #fb923c;
   transform: rotate(-18deg);
 }
 
