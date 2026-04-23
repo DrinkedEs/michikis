@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+
+*.log
+*.err.log
+
+motivadora/node_modules/
+motivadora/dist/
+motivadora/dev-server.log
+motivadora/dev-server.err.log
+motivadora/iphone-*.png
+

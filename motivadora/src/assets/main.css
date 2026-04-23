@@ -1,0 +1,28 @@
+@import './base.css';
+
+html {
+  min-width: 320px;
+  background: #6d28d9;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  overflow-x: hidden;
+  color: #f8f7fb;
+  background: #6d28d9;
+}
+
+button {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+}
+
+#app {
+  width: 100%;
+  min-height: 100vh;
+}

@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Para Mi Amor 💜</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Hero Section -->
+      <section id="hero">
+        <h1>Mi Amor, Tú Eres Suficiente</h1>
+        <p class="subtitle">
+          No estás sola en esto. Yo creo en ti, en cada paso que das, y quiero
+          caminar contigo.
+        </p>
+        <button onclick="scrollToSection('section1')">Sigue Leyendo 💌</button>
+      </section>
+
+      <!-- Section 1: Lo que yo veo en ti -->
+      <section id="section1" class="card">
+        <h2>Lo Que Yo Veo en Ti</h2>
+        <p>
+          Mi amor, a veces te hablas muy duro a ti misma, y yo quiero recordarte
+          que no eres floja ni insuficiente. Veo tu esfuerzo diario, cómo
+          estudias con dedicación, cómo buscas crecer poco a poco. Veo tu fuerza
+          en los momentos difíciles, tu sonrisa que ilumina todo, y cómo amas
+          con todo el corazón. Tú eres hermosa tal como eres, y yo te admiro por
+          eso.
+        </p>
+      </section>
+
+      <!-- Section 2: No tienes que poder sola -->
+      <section id="section2" class="card">
+        <h2>No Tienes Que Poder Sola</h2>
+        <p>
+          Amor mío, la vida no se trata de cargar todo el peso sola. Si
+          necesitas un abrazo, una plática, motivación para levantarte o
+          simplemente compañía para caminar, yo estoy aquí. Quiero ser tu apoyo,
+          tu compañero en esto. Juntos podemos enfrentar lo que sea, porque tú
+          no estás sola, y yo no quiero que lo estés nunca.
+        </p>
+      </section>
+
+      <!-- Section 3: Paso a pasito -->
+      <section id="section3" class="card">
+        <h2>Paso a Pasito</h2>
+        <p>
+          No hay prisa, mi amor. El progreso no tiene que ser perfecto ni
+          rápido. Si quieres ir al gym, hagámoslo juntos, un día a la vez. Si
+          extrañas el ballet, podemos buscar clases cuando estés lista. Salir
+          más, distraerte, tomar ritmo... todo eso puede venir poco a poco, sin
+          presión. Lo importante es que avances a tu ritmo, y yo estaré
+          orgulloso de cada paso que des.
+        </p>
+      </section>
+
+      <!-- Gallery Section -->
+      <section id="gallery" class="gallery">
+        <h2>Nuestros Momentos Juntos 💜</h2>
+        <div class="photos">
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/HcCWTT70/IMG-20240508-WA0039.jpg"
+              onclick="openLightbox(this.src)"
+              alt="Una de nuestras primeras fotos"
+            />
+            <p>Una de nuestras primeras fotos 💜</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/KKTvX14n/last.jpg"
+              onclick="openLightbox(this.src)"
+              alt="Una de nuestras últimas fotos"
+            />
+            <p>Una de nuestras últimas fotos</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/bGnNXZdg/FB-IMG-1768881129936.jpg"
+              onclick="openLightbox(this.src)"
+              alt="Cuando estuviste conmigo en mi graduación"
+            />
+            <p>Cuando estuviste conmigo en mi graduación 🎓</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/1nZFbhRZ/IMG-2025-03-06-17-37-46-356.jpg"
+              onclick="openLightbox(this.src)"
+              alt="Nuestro aniversario de 1 año"
+            />
+            <p>Nuestro aniversario de 1 año 💜</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/r0L47XyX/IMG-20250906-WA0005.jpg"
+              onclick="openLightbox(this.src)"
+              alt="En la charreada"
+            />
+            <p>En la charreada 🐎</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/PpkD0sfj/IMG-20250906-WA0037.jpg"
+              onclick="openLightbox(this.src)"
+              alt="El collage que hiciste"
+            />
+            <p>El collage que hiciste 🥹</p>
+          </div>
+          <div class="photo">
+            <img
+              src="https://i.postimg.cc/CBV89ThQ/IMG20251128215135.jpg"
+              onclick="openLightbox(this.src)"
+              alt="Tu cumpleaños"
+            />
+            <p>Tu cumpleaños 🎂</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Final Letter Section -->
+      <section id="final-letter" class="card">
+        <h2>Una Carta Para Ti</h2>
+        <p>
+          Mi amorcito, mi bb preciosa, te amo en todas tus versiones. No tienes
+          que cambiar nada para merecer mi amor, porque ya lo mereces todo tal
+          como eres. A veces sientes que no avanzas, pero mira atrás: has
+          construido una vida hermosa, llena de amor, de risas, de momentos que
+          valen la pena. Yo quiero caminar contigo, sin presiones, solo con amor
+          y compañía. Eres mi persona favorita, y juntos construiremos una vida
+          bonita, paso a paso, con paciencia y ternura. Te amo infinito. 💜
+        </p>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <p>Con todo mi amor, siempre. 💜</p>
+      </footer>
+    </div>
+
+    <!-- Lightbox for images -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <img id="lightbox-img" src="" alt="" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
